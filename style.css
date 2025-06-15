@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+body {
+    text-align: center;
+    font-family: sans-serif;
+    }
+ .head{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 63px;
+    background: #8e661c;/*color de fondo del menu*/
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+ }
+ .navbar{
+    display: flex;
+    margin-right: 10px;
+ }
+ .logo{
+    margin-left: 30px;
+ }
+ .logo a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+ .navbar a {
+    display: block;
+    padding: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+ }
+ .navbar a:hover {
+background: #d63b3b;/* al pasar el cursor cambie de color el fondo de la letradddddddd */
+ }
+  .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+       }
+ .header{
+    height: 60vh;
+    background: url(imagenes/mar.jpg) no-repeat center;
+    background-size: cover;
+    
+ }
+ .title{
+    margin-bottom: 32px;
+    font-size: 62px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #aea068; /*color de los titulos */
+ }
+ p {
+    margin-bottom: 80px;
+    font-size: 18px;
+    color: #d2d6e3;
+    padding: 0 100px;
+    text-align: justify;
+ 
+
+ }
+ .btn{
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 40px;
+    border: 2px solid #9c27b0; /*borde del boton */
+    color:#fff;
+    text-decoration: none;
+    background: #76287d;/*colos del doton saber mas */
+ }
+ .btn:hover{
+    background: none;
+ }
+ .btn-home{
+    display: flex;
+}
+.btn-home a {
+    margin: 0 10px;
+}
+.content{
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sau{
+    padding: 20px;
+    background: #3b2216;/*color de fondo del titulo*/
+
+}
+.box-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.box-container .box{
+    height: 11rem;/*posion de los cuadrados con texto*/
+    width: 19rem;
+    background: #281908;/*color de fondo de las palabras sacrificio ...*/
+    text-align: center;
+    border-radius: 1rem;
+    box-shadow: 0 .3 5rem rgba(0, 0, 0, 0.5);
+    margin: 2rem;
+}
+.box-container .box i{
+    height: 3rem;
+    width: 3rem;
+    line-height: 3rem;
+     text-align: center;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 2rem;
+    margin: 1rem 0;
+
+}
+.box-container .box h3 {
+    font-size: 20px;
+    color: #968259;
+    
+}
+.box-container .box p {
+    padding: o 15px;
+    font-size: 16px;
+    text-align: center;
+}
+.about{
+    background: #361902;
+}
+.price {
+    background: url(imagenes/cruz.jpg) no-repeat center;
+    background-attachment: fixed ;
+    background-size: cover;
+    text-align: center;
+}
+.contact {
+    padding-top: 20px;
+    background: #3d2a0e;/*color de fondo de la pregunta */
+    padding-bottom: 0;
+}
+@media(max-width: 768px){
+    .title{
+        margin-bottom: 0;
+        font-family: 40px;
+    }
+    .sau {
+        height: 120vh;
+    }
+    .navbar {
+        display: none;
+    }
+}
+.domi {
+    background: url(imagenes/fra.jpg) no-repeat center;
+    background-attachment: fixed ;
+    background-size: cover;
+    text-align: center;
+}
+.mari {
+    background: url(imagenes/concep.jpeg) no-repeat center;
+    background-attachment: fixed ;
+    background-size: cover;
+    text-align: center;
+}
+.reli {
+    background: url(imagenes/tosi.jpg) no-repeat center;
+    background-attachment: fixed ;
+    background-size: cover;
+    text-align: center;
+}
+.Marti {
+    background: url(imagenes/sebas.jpg) no-repeat center;
+    background-attachment: fixed ;
+    background-size: cover;
+    text-align: center;
+}
+.pad {
+    background: url(imagenes/pe.jpg) no-repeat center;
+    background-attachment: fixed ;
+    background-size: cover;
+    text-align: center;/*abajo es el estilo del formulario no te confundas*/
+}
+.container-form{
+  background-color: #361902;
+width: 100%;
+max-width: 1400px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 50px;
+margin-top: 90px;
+margin-top: 30%;
+  }
+
+  .container-form h2{  
+    margin-bottom: 15px;/*espacio entre el titulo contacto con el texto*/
+    font-size: 35px;
+    background-color: #968259;
+    color: #2e220b; /*color de la palabra contacto*/
+    width: 60%; /*ancho del fondo de contacto*/
+  }
+  .container-form p {
+     font-size: 17px;
+     line-height: 1.6;
+     margin-bottom: 30px;
+  }
+
+  .container-form a{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(65, 43, 11);
+    width: 60%;/*ancho del fondo donde esta el numero de celular*/
+    margin-bottom: 15px;
+    font-weight: 700;
+    background-color: #968259;
+    
+  }
+
+  .container-form form .campo, textarea{
+    width: 90%; /*ancho de las barras blancas*/
+    padding: 15px 10px;
+    font-size: 15px;
+    border: 1px solid #f9f1f1;/*color del contorno de la barar blancas */
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+
+  }
+  .container-form form textarea{
+   max-width: 530px;
+   min-width: 530px;
+   min-height: 140px;
+   max-height: 150px;
+  }    
+  .container-form .btn-enviar {
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    background: rgb(194, 148, 64);
+    color: white;
+    border-radius: 3px;
+    cursor: pointer; /*al pasar le cursor se cambia a una manita */
+    transition: all 300ms ease;
+  }
+
+  .container-form .btn-enviar:hover{
+    color: rgb(255, 255, 255);
+    background: #c044c9;
+  }
+  
+
+ 
