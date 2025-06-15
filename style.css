@@ -154,13 +154,21 @@ background: #d63b3b;/* al pasar el cursor cambie de color el fondo de la letradd
 @media(max-width: 768px){
     .title{
         margin-bottom: 0;
-        font-family: 40px;
+        font-size: 50px;
     }
+    .contact{
+        height: 110vh;
+    }
+    .about{
+        height: 110vh;
+    }
+    
     .sau {
-        height: 120vh;
+        height: 100vh;
     }
     .navbar {
-        display: none;
+        display: 0;/*en este espacio iba none para que seria para no mostrar el menu cuando este est
+        recho si tenes dudas colocalo y veras la diferencia */
     }
 }
 .domi {
