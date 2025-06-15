@@ -157,14 +157,14 @@ background: #d63b3b;/* al pasar el cursor cambie de color el fondo de la letradd
         font-size: 50px;
     }
     .contact{
-        height: 110vh;
+        height: 200vh;/*100vh*/
     }
     .about{
-        height: 110vh;
+        height: 200vh;/*tenia 110*/
     }
     
     .sau {
-        height: 100vh;
+        height: 200vh;/*tenia 100*/
     }
     .navbar {
         display: 0;/*en este espacio iba none para que seria para no mostrar el menu cuando este est
